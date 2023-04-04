@@ -19,7 +19,7 @@ const todayDate = () => {
   const date = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
   showDateTime.textContent = date;
 };
-todayDate();
+todayDate()
 headerLinks.addEventListener('click', (e) => {
   e.preventDefault();
   const currentLink = e.target;
